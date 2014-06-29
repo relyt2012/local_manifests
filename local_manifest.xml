@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="kernel/samsung/msm8930-common" name="szezso/android_kernel_samsung_msm8930-common" revision="cm-11.0" />
+    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" revision="cm-11.0" />
+    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" revision="cm-11.0" />
+    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+    <project path="device/samsung/loganreltexx" name="szezso/android_device_samsung_loganreltexx" revision="cm-11.0" />
+    <project path="vendor/samsung/loganreltexx" name="szezso/proprietary_vendor_samsung_loganreltexx" revision="cm-11.0" />
+</manifest>

@@ -6,6 +6,6 @@
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
-    <project path="device/samsung/loganreltexx" name="mir3k/android_device_samsung_loganreltexx-1" revision="cm-11.0" />
-    <project path="vendor/samsung/loganreltexx" name="mir3k/proprietary_vendor_samsung_loganreltexx" revision="cm-11.0"/>
+    <project path="device/samsung/loganreltexx" name="kostoulhs/android_device_samsung_loganreltexx" revision="cm-11.0" />
+    <project path="vendor/samsung/loganreltexx" name="kostoulhs/proprietary_vendor_samsung_loganreltexx" revision="cm-11.0"/>
 </manifest>

@@ -1,6 +1,6 @@
 Building Instructions:
 
-1) cd "your_path_to_the _source_code"
+1) cd "your_path_to_the_source_code"
 2) repo sync -j16 
 3) . build/envsetup.sh
 4) lunch cm_loganreltexx-userdebug

@@ -4,4 +4,6 @@ Building Instructions:
 2) repo sync -j16 
 3) . build/envsetup.sh
 4) lunch cm_loganreltexx-userdebug
-5) time brunch loganreltexx -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
+5) time brunch loganreltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
+
+**The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...

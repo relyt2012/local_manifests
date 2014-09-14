@@ -9,10 +9,10 @@ http://forum.xda-developers.com/showthread.php?t=2639611
 After these steps:
 
 1) cd "your_path_to_the_source_code"
-3) copy local_manifest.xml from this repo to .repo/local_manifests folder (if it doesn't exist, make it)
-2) repo sync -j16 
-3) . build/envsetup.sh
-4) lunch cm_loganreltexx-userdebug
-5) time brunch loganreltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
+2) copy local_manifest.xml from this repo to .repo/local_manifests folder (if it doesn't exist, make it)
+3) repo sync -j16 
+4) . build/envsetup.sh
+5) lunch cm_loganreltexx-userdebug
+6) time brunch loganreltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
 
 **The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...

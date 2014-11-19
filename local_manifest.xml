@@ -8,5 +8,4 @@
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
     <project path="device/samsung/loganreltexx" name="kostoulhs/android_device_samsung_loganreltexx" remote="github" revision="cm-12.0" />
     <project path="vendor/samsung/loganreltexx" name="kostoulhs/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-12.0"/>
-    <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
 </manifest>

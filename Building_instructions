@@ -16,3 +16,13 @@ After these steps:
 6) time brunch loganreltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
 
 **The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...
+
+*Note: I have created the "mod" branches on kernel repository. Those repositories include all the good kernel stuff, 
+like OC, UC, Voltage Control and so on...
+If you want to build the kernel which includes those changes you have to switch branch on local_manifest.xml
+
+Example:
+Kernel with mods:
+<project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0_mod" />
+Kernel without mods:
+<project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0" />

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.1" />
+    <!-- Custom kernel -->
+    <project path="kernel/samsung/custom_kernel" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.1_mod" />
+    <!-- Rest of the manifest -->
     <project path="device/samsung/qcom-common" name="kostoulhs/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
     <project path="device/samsung/msm8930-common" name="kostoulhs/android_device_samsung_msm8930-common" remote="github" revision="cm-12.1" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />

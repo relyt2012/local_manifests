@@ -8,21 +8,21 @@ http://forum.xda-developers.com/showthread.php?t=2639611
 
 After these steps:
 
-1) cd "your_path_to_the_source_code"
-2) copy local_manifest.xml from this repo to .repo/local_manifests folder (if it doesn't exist, make it)
-3) repo sync -j16 
+1) mkdir cm12.1
+2) cd cm12.1
+3) copy local_manifest.xml from this repo to <<root_of_source_code>>/.repo/local_manifests folder (if it doesn't exist, make it)
+4) repo sync -j16 
 4) . build/envsetup.sh
 5) lunch cm_loganreltexx-userdebug
-6) time brunch loganreltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
+6) time mka bacon -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
 
 **The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...
 
 *Note: I have created the "mod" branches on kernel repository. Those repositories include all the good kernel stuff, 
 like OC, UC, Voltage Control and so on...
-If you want to build the kernel which includes those changes you have to switch branch on local_manifest.xml
+If you want to build the kernel which includes those changes you have to change "msm8930-common" in this line https://github.com/kostoulhs/android_device_samsung_loganreltexx/blob/cm-12.1/BoardConfig.mk#L33
+to "custom_kernel"
 
-Example:
-Kernel with mods:
-<project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0_mod" />
-Kernel without mods:
-<project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0" />
+In brief:
+TARGET_KERNEL_SOURCE         := kernel/samsung/msm8930-common (Stock kernel)
+TARGET_KERNEL_SOURCE         := kernel/samsung/custom_kernel  (Mod kernel)

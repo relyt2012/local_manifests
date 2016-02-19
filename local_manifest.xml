@@ -14,8 +14,8 @@
     <project path="vendor/samsung/loganreltexx" name="kostoulhs/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-12.1"/>
     
         <!-- Remove unused projects -->
-<remove-project name="CyanogenMod/android_frameworks_webview" />
-<project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" />
+    <!-- <remove-project name="CyanogenMod/android_frameworks_webview" /> -->
+    <!-- <project path="frameworks/webview" name="arter97/android_frameworks_webview" remote="github" revision="cm-12.1" /> -->
 
 <remove-project name="platform/developers/build" />
 <remove-project name="platform/developers/demos" />

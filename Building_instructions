@@ -10,13 +10,13 @@ After these steps:
 
 1) mkdir cm12.1
 2) cd cm12.1
-3) copy local_manifest.xml from this repo to <<root_of_source_code>>/.repo/local_manifests folder (if it doesn't exist, make it)
+3) copy local_manifest.xml from this repo to cm12.1/.repo/local_manifests folder (if it doesn't exist, make it)
 4) repo sync -j16 
 4) . build/envsetup.sh
-5) lunch cm_loganreltexx-userdebug
+5) lunch cm_loganreltexx-userdebug -j4
 6) time mka bacon -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
 
-**The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...
+**Note for step 3: .repo is a hidden folder (begins with "."). To make it visible in Ubuntu file manager press Ctrl + H
 
 *Note: I have created the "mod" branches on kernel repository. Those repositories include all the good kernel stuff, 
 like OC, UC, Voltage Control and so on...

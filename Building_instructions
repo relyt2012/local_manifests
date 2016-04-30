@@ -12,7 +12,7 @@ After these steps:
 2) copy local_manifest.xml from this repo to .repo/local_manifests folder (if it doesn't exist, make it)
 3) repo sync -j16 
 4) . build/envsetup.sh
-5) lunch cm_lt02ltexx-userdebug
-6) time brunch lt02ltexx userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
+5) lunch cm_lt02ltespr-userdebug
+6) time brunch lt02ltespr userdebug -j# , where "#" is the number of CPU Cores +1, for example on a Dual Core it will be -j3
 
 **The "userdebug" parameter specifies the build type! Alternatives: user,eng and so on...

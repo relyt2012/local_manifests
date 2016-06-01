@@ -8,7 +8,7 @@
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-13.0" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-13.0" />
-    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="master" />
+    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="mm6.0" />
     <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="mm6.0" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="mm6.0"/>
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>

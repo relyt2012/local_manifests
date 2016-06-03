@@ -6,7 +6,7 @@
     <project path="device/samsung/qcom-common" name="FaArIsH/android_device_samsung_qcom-common" remote="github" revision="slim" />
     <project path="device/samsung/msm8930-common" name="FaArIsH/android_device_samsung_msm8930-common" remote="github" revision="slim" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
-    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="slim
+    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="slim" />
     <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="slimmm" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="mm6.0"/>
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>

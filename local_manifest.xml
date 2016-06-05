@@ -3,11 +3,11 @@
     <!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="csendre/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
     <!-- Rest of the manifest -->
-    <project path="device/samsung/qcom-common" name="FaArIsH/android_device_samsung_qcom-common" remote="github" revision="slim" />
-    <project path="device/samsung/msm8930-common" name="FaArIsH/android_device_samsung_msm8930-common" remote="github" revision="slim" />
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
-    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="slim" />
-    <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="slimmm" />
+    <project path="device/samsung/qcom-common" name="FaArIsH/android_device_samsung_qcom-common" remote="github" revision="omni" />
+    <project path="device/samsung/msm8930-common" name="FaArIsH/android_device_samsung_msm8930-common" remote="github" revision="omni" />
+    <project path="hardware/samsung" name="SlimRoms/hardware_samsung" remote="github" revision="mm6.0" />
+    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="omni" />
+    <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="omni" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="slim"/>
-    <project path="external/stlport" name="SlimRoms/android_external_stlport" remote="github" revision="mm6.0"/>
+    <project path="external/stlport" name="omnirom/android_external_stlport" remote="github" revision="android-6.0"/>
 </manifest>

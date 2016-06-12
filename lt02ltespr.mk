@@ -1,8 +1,8 @@
 # Inherit common product files.
-$(call inherit-product, vendor/aicp/configs/common.mk)
+$(call inherit-product, vendor/aicp/configs/common_tablet.mk)
 
 # Inherit telephony stuff
-$(call inherit-product, vendor/aicp/configs/telephony.mk)
+$(call inherit-product, vendor/aicp/configs/common_tablet.mk)
 
 # Inherit AOSP device configuration for lt02ltespr.
 $(call inherit-product, device/samsung/lt02ltespr/full_lt02ltespr.mk)

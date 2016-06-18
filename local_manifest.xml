@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.1" />
-    <!-- Custom kernel -->
-    <project path="kernel/samsung/custom_kernel" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.1_mod" />
     <!-- Rest of the manifest -->
-    <project path="device/samsung/qcom-common" name="kostoulhs/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
-    <project path="device/samsung/msm8930-common" name="kostoulhs/android_device_samsung_msm8930-common" remote="github" revision="cm-12.1" />
+    <project path="device/samsung/qcom-common" name="FaArIsH/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
+    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-12.1" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
-    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
-    <project path="device/samsung/loganreltexx" name="kostoulhs/android_device_samsung_loganreltexx" remote="github" revision="cm-12.1" />
-    <project path="vendor/samsung/loganreltexx" name="kostoulhs/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-12.1"/>
+    <project path="device/samsung/serranoltexx" name="FaArIsH/android_device_samsung_serranoltexx" remote="github" revision="cm-12.1" />
+    <project path="device/samsung/serrano-common" name="FaArIsH/android_device_serrano-common" remote="github" revision="cm-12.1" />
+    <project path="vendor/samsung/wilcoxltexx" name="TheWhisp/proprietary_vendor_samsung" remote="github" revision="cm-12.1"/>
     
         <!-- Remove unused projects -->
     <!-- <remove-project name="CyanogenMod/android_frameworks_webview" /> -->

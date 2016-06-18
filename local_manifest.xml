@@ -5,8 +5,8 @@
     <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-12.1" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
-    <project path="device/samsung/serranoltexx" name="FaArIsH/android_device_samsung_serranoltexx" remote="github" revision="cm-12.1" />
-    <project path="device/samsung/serrano-common" name="FaArIsH/android_device_serrano-common" remote="github" revision="cm-12.1" />
+    <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_serranoltexx" remote="github" revision="cm-12.1" />
+    <project path="device/samsung/lt02lte-common" name="FaArIsH/android_device_serrano-common" remote="github" revision="cm-12.1" />
     <project path="vendor/samsung/wilcoxltexx" name="TheWhisp/proprietary_vendor_samsung" remote="github" revision="cm-12.1"/>
     
         <!-- Remove unused projects -->

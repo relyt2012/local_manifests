@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="FaArIsH/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
+    <project path="kernel/samsung/lt02lte" name="FaArIsH/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
     <!-- Rest of the manifest -->
     <project path="device/samsung/lt02lte" name="FaArIsH/android_device_samsung_lt02lte" remote="github" revision="master" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="master"/>

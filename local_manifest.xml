@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+      <remote  name="bb"
+               fetch="https://bitbucket.org/"/>
+
     <!-- Stock kernel -->
     <project path="samsung/msm8930-common" name="FaArIsH/android_kernel_samsung_msm8930-common" remote="github" revision="remix" />
     <!-- Rest of the manifest -->

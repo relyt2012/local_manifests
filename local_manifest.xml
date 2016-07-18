@@ -13,7 +13,6 @@
     <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="cm-13.0" />
     <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="xosp" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="master"/>
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>
     
     <!-- Uber Toolchain  -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />

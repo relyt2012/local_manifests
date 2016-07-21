@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+      <remote  name="bb"
+               fetch="https://bitbucket.org/"/>
+               
     <!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="FaArIsH/android_kernel_samsung_msm8930-common" remote="github" revision="remix" />
     <!-- Rest of the manifest -->
@@ -10,4 +13,9 @@
     <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="slim" />
     <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="master"/>
     <project path="external/stlport" name="SlimRoms/android_external_stlport" remote="github" revision="mm6.0"/>
+    
+    <!-- Uber Toolchain  -->
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  
 </manifest>

@@ -4,7 +4,7 @@
                fetch="https://bitbucket.org/"/>
 
     <!-- Stock kernel -->
-    <project path="samsung/msm8930-common" name="FaArIsH/android_kernel_samsung_msm8930-common" remote="github" revision="remix" />
+    <project path="samsung/msm8930-common" name="FaArIsH/android_kernel_samsung_msm8930-remix" remote="github" revision="remix" />
     <!-- Rest of the manifest -->
     <project path="device/samsung/qcom-common" name="FaArIsH/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
     <project path="device/samsung/msm8930-common" name="FaArIsH/android_device_samsung_msm8930-common" remote="github" revision="mm6.0" />

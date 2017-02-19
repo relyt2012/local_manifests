@@ -7,8 +7,8 @@
     <project path="device/samsung/msm8930-common" name="LineageOS/android_device_samsung_msm8930-common" remote="github" revision="cm-14.1" />
     <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-    <project path="device/samsung/lt02ltexx-common" name="FaArIsH/android_device_samsung_lt02ltexx-common" remote="github" revision="cm-14.1" />
-    <project path="device/samsung/lt02ltespr" name="FaArIsH/android_device_samsung_lt02ltespr" remote="github" revision="cm-14.1" />
-    <project path="vendor/samsung/" name="FaArIsH/proprietary_vendor_samsung" remote="github" revision="cm-14.1"/>
+    <project path="device/samsung/lt02ltexx-common" name="relyt2012android_device_samsung_lt02ltexx-common" remote="github" revision="cm-14.1" />
+    <project path="device/samsung/lt02ltespr" name="relyt2012/android_device_samsung_lt02ltespr" remote="github" revision="cm-14.1" />
+    <project path="vendor/samsung/" name="relyt2012/proprietary_vendor_samsung" remote="github" revision="cm-14.1"/>
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
 </manifest>
